@@ -7,13 +7,9 @@
 
 참고하면 됨.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/625d200a-49f5-4a89-80e6-157b297ac01f/Untitled.png)
 
 - markup ; 태그를 이용해 문서의 구조를 나타내는것.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9458bf4c-f343-4ec9-92da-a46d6abf6cfd/Untitled.png)
-
-한 줄을 띄워야 함.
 
 - [readme.md](http://readme.md) 파일을 통해 오픈 소스 공식문서 작성.
 
@@ -29,8 +25,8 @@
     - MM 이나 slack, 노션 에서도 사용 가능.
 - 링크 ( [string](url) )
     - 스트링에서 보여지는 부분, url은 연결할 곳)
-    - [이거는 그거지..]([[SSAFY] Public Document (notion.site)](https://www.notion.so/9dc94ea8a050472ca00ffe8ea58586da))
-- 이미지( ![string](url) )
+
+- 이미지( ![string] (url) )
     - 이미지 삽입, 너비와 높이는 조절할수없음. 조절하기위해서는 HTML 사용
 - 텍스트 강조
     - . **볼드할 글씨 . **  **볼드**
@@ -64,7 +60,6 @@
 
 Staging Area → Repository
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84495ab3-c011-4f5f-891e-f339cc0a0c19/Untitled.png)
 
                            **(git commit) ; `git commit -m “ 남길 말 “` ;** 
 
@@ -100,25 +95,16 @@ Repository → Remote Repository
 
 → commit 마다 고유 ID가 부여됨.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/42507d69-2265-4214-8496-65d69372dce1/Untitled.png)
-
-(Terminal ; local)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/df5dff55-97fb-4de5-bbcc-0b7cc7bb54fd/Untitled.png)
-
-(Github; remote) , commit ID가 6자리만 기록됨.
+github ; commit ID가 6자리만 기록됨.
 
 = If ) bash command에서 벗어나고 싶다면 ? q 를 입력 =
 
 `git commit` : 입력하면 **Vim** 으로 입력됨. 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/256a0ee8-049a-49ec-81fa-5523ee914ee5/Untitled.png)
 
 당황하지 말고 
 
 - `Esc` (명령모드)→ `:wq` 저장후 닫기 or `:q!` (저장하지 않고 강제종료)로 bash command 로 돌아갈수 있다!
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/70ec8d2d-4ce9-4cb7-93d1-2a6bea8a3c32/Untitled.png)
 
 - `**git clone**` : github 등 저장되어있는 repo를 복제해옴.
     - `git clone "repo주소(https://github.com/hyodeul/git_test.git")` ;하면 현재디렉토리에 repo 에 저장된 폴더를 복사해옴 + `git init` & `git remote`같이 실행됨
